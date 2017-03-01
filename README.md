@@ -2,7 +2,7 @@
 
 Download:
 
-`git clone https://github.com/virsoz/docker_malwarejail.git`
+`git clone https://github.com/HynekPetrak/malware-jail.git`
 
 or use your custom "malware-jail" project.
 
