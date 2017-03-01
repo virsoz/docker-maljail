@@ -14,7 +14,7 @@ Inside "malware-jail" folder
 `docker build -t virsoz/maljail .`
 
 Run
-`docker run -itd -v /<your-path-to-folder-files>:/file --name mjail visoz/maljail`
+`docker run -itd -v /<your-path-to-folder-files>:/files --name mjail virsoz/maljail`
 
 Exec
-`docker exec -it mjail ./jail.sh /file/<your-file>`
+`docker exec -it mjail ./jail.sh /files/<your-file>`
